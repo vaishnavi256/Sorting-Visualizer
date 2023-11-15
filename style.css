@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+h1{
+    color: white;
+}
+#container{
+    margin-top: 200px;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.wrapper{
+    background-color: rgb(1, 10, 29);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar{
+    width: 100px;
+    background-color: rgb(82, 177, 232);
+    margin: 2px;
+}
